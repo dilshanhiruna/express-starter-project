@@ -144,6 +144,7 @@ exports.deletePost = async (req, res) => {
     res.status(500).json({ error: "Failed to delete blog post" });
   }
 };
+// pc:end: mongodb
 
 // pc:begin: mysql
 
