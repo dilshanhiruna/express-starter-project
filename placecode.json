@@ -15,6 +15,7 @@
   },
   {
     "label": "database",
+    "required": false,
     "description": "Description of database",
     "features": [
       {
@@ -49,6 +50,7 @@
   },
   {
     "label": "rate-limiting",
+    "required": false,
     "description": "Description of rate-limiting",
     "features": [
       {
