@@ -1,0 +1,65 @@
+[
+  {
+    "label": "backend-framework",
+    "description": "Description of backend-framework",
+    "required": true,
+    "features": [
+      {
+        "label": "express",
+        "description": "Description of express",
+        "depend_features": [],
+        "depend_categories": [],
+        "enabled": true
+      }
+    ]
+  },
+  {
+    "label": "database",
+    "description": "Description of database",
+    "required": true,
+    "features": [
+      {
+        "label": "mongodb",
+        "description": "Description of mongodb",
+        "depend_features": [],
+        "depend_categories": [],
+        "enabled": true
+      },
+      {
+        "label": "mysql",
+        "description": "Description of mysql",
+        "depend_features": [],
+        "depend_categories": [],
+        "enabled": false
+      }
+    ]
+  },
+  {
+    "label": "orm",
+    "description": "Description of orm",
+    "required": true,
+    "features": [
+      {
+        "label": "mongoose",
+        "description": "Description of mongoose",
+        "depend_features": [],
+        "depend_categories": [],
+        "enabled": false
+      }
+    ]
+  },
+  {
+    "label": "rate-limiting",
+    "description": "Description of rate-limiting",
+    "required": true,
+    "features": [
+      {
+        "label": "express-rate-limit",
+        "description": "Description of express-rate-limit",
+        "depend_features": [],
+        "depend_categories": [],
+        "enabled": true
+      }
+    ]
+  }
+]
