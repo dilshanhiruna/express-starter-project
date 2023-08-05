@@ -16,7 +16,6 @@
   {
     "label": "database",
     "description": "Description of database",
-    "required": true,
     "features": [
       {
         "label": "mongodb",
@@ -51,7 +50,6 @@
   {
     "label": "rate-limiting",
     "description": "Description of rate-limiting",
-    "required": true,
     "features": [
       {
         "label": "express-rate-limit",
