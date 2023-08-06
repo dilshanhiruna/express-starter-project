@@ -1,12 +1,12 @@
 [
   {
     "label": "backend-framework",
-    "description": "Description of backend-framework",
+    "description": "Choose the backend framework that powers your application's server-side logic.",
     "required": true,
     "features": [
       {
         "label": "express",
-        "description": "Description of express",
+        "description": "Express is a fast and minimalist web application framework for Node.js, providing robust routing and middleware capabilities.",
         "depend_features": [],
         "depend_categories": [],
         "enabled": true
@@ -16,32 +16,25 @@
   {
     "label": "database",
     "required": false,
-    "description": "Description of database",
+    "description": "Select the database technology to store and manage your application's data.",
     "features": [
       {
         "label": "mongodb",
-        "description": "Description of mongodb",
+        "description": "MongoDB is a scalable NoSQL database, offering high-performance document storage and flexible data modeling.",
         "depend_features": [],
         "depend_categories": [],
         "enabled": true
       },
       {
-        "label": "mysql",
-        "description": "Description of mysql",
+        "label": "mongoose",
+        "description": "Mongoose is an Object Data Modeling (ODM) library for MongoDB, simplifying data validation and providing additional features.",
         "depend_features": [],
         "depend_categories": [],
         "enabled": false
-      }
-    ]
-  },
-  {
-    "label": "orm",
-    "description": "Description of orm",
-    "required": true,
-    "features": [
+      },
       {
-        "label": "mongoose",
-        "description": "Description of mongoose",
+        "label": "mysql",
+        "description": "MySQL is a popular relational database management system, ideal for structured data storage and retrieval.",
         "depend_features": [],
         "depend_categories": [],
         "enabled": false
@@ -51,11 +44,11 @@
   {
     "label": "rate-limiting",
     "required": false,
-    "description": "Description of rate-limiting",
+    "description": "Enable rate limiting to control the rate of incoming requests to your backend API.",
     "features": [
       {
         "label": "express-rate-limit",
-        "description": "Description of express-rate-limit",
+        "description": "Express-rate-limit is a middleware for Express to implement rate limiting, protecting your server from abuse and potential attacks.",
         "depend_features": [],
         "depend_categories": [],
         "enabled": true
