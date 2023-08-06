@@ -15,7 +15,7 @@
   },
   {
     "label": "database",
-    "required": false,
+    "required": true,
     "description": "Select the database technology to store and manage your application's data.",
     "features": [
       {
