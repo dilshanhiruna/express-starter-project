@@ -5,7 +5,7 @@
     "required": true,
     "features": [
       {
-        "label": "express",
+        "label": "Express",
         "description": "Express is a fast and minimalist web application framework for Node.js, providing robust routing and middleware capabilities.",
         "depend_features": [],
         "depend_categories": [],
